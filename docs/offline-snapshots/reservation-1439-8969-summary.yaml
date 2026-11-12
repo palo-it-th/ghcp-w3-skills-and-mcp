@@ -1,0 +1,49 @@
+name: POC FIGMA MCP
+file_key: pkCT6YDfcnEVOOTS2HIDOg
+node_id: "1439:8969"
+source_url: https://www.figma.com/design/pkCT6YDfcnEVOOTS2HIDOg/POC-FIGMA-MCP?node-id=1439-8969
+accessed: "2026-11-12"
+snapshot_kind: curated-partial-summary
+project: Booking Restaurant App
+frame:
+  name: Reservation
+  width: 378
+  height: 1051
+  background: "#F6EFE8"
+  form_font: Montserrat
+contact_fields:
+  - {node_id: "1439:8981", label: Full name}
+  - {node_id: "1439:8982", label: Phone number}
+  - {node_id: "1439:8983", label: Email}
+controls:
+  - {node_id: "1439:8985", label: Notes}
+  - {node_id: "1439:8988", label: Vaccine green passes}
+  - {node_id: "1439:8991", label: How many people?, displayed_value: "2"}
+  - {node_id: "1439:9001", label: Pick your time, displayed_value: 18h30 - 19h00}
+  - {node_id: "1439:9017", label: Pick your date, displayed_month: September, displayed_year: "2021"}
+  - {node_id: "1439:9019", label: Must have Vaccinated Card}
+  - {node_id: "1439:9022", label: Deposit for reservation}
+  - {node_id: "1439:8974", label: I agree with restaurant terms of service}
+reserve_button:
+  group_node_id: "1439:8970"
+  background_node_id: "1439:8971"
+  text_node_id: "1439:8972"
+  label: RESERVE
+  width: 346
+  height: 44
+  fill: "#AD3F32"
+  border_radius: 8px
+  text_color: "#FFFFFF"
+  text_font: Montserrat Bold 20px
+restaurant:
+  name_node_id: "1439:9036"
+  displayed_name: An BBQ Dong Khoi
+not_verified:
+  - Required fields, contact validation rules and guest count limits.
+  - Date availability, timezone, deposit calculation and refund rules.
+  - Whether vaccine controls are still required by the product owner.
+  - Loading, error, disabled and duplicate-submission behavior.
+limitations:
+  - Partial transcription, not a complete Figma API dump or an interactive prototype.
+  - No images, complete calendar grid, assets or other frames are included.
+  - Displayed sample dates and values are not current business rules.

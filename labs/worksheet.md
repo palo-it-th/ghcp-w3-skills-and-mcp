@@ -14,7 +14,7 @@
 
 - ตอนถามรอบแรก (ก่อนมี Skill) โดยไม่พิมพ์ `/summarize-note`:
   - Copilot โหลด Prompt File หรือไม่: [ ] โหลด / [ ] ไม่โหลด
-  - แปลความหมายของ `Project หมูกระทะ` และ `SLA-Red` ถูกไหม:
+  - แปล `Project หมูกระทะ` (Booking Restaurant), `Project ชานมหวานร้อย` (E-commerce) และ `SLA-Red` ถูกไหม:
 - หลังสร้าง `.github/skills/meeting-summary/` แล้วถามประโยคเดิมซ้ำใน New Chat:
   - เห็นบรรทัด `Read skill meeting-summary` หรือไม่: [ ] เห็น / [ ] ไม่เห็น
   - เห็นการเปิดอ่านไฟล์ `references/team-glossary.md` และ `assets/summary-template.md` หรือไม่: [ ] เห็น / [ ] ไม่เห็น
@@ -42,16 +42,17 @@
 
 - สถานะของ Server `figma` (`Running` / ติดปัญหาอะไร):
 - เห็น Tools อะไรบ้างภายใต้ `figma`:
-- ผล Smoke Test หน้า `Register Screen` (`node-id=925-1328`) — ระบุว่า **Online** หรือ **Offline Snapshot**:
+- ผล Smoke Test หน้า `Reservation` (`node-id=1439-8969`) — ระบุว่า **Online** หรือ **Offline Snapshot**:
   - ขนาด Frame ที่อ่านได้:
-  - รายชื่อ 4 ฟิลด์ที่อ่านได้:
-  - สี Hex ของปุ่ม `Register` ที่อ่านได้:
+  - รายชื่อ 3 ฟิลด์ในกลุ่ม `Your information` ที่อ่านได้:
+  - สี Hex และ borderRadius ของปุ่ม `RESERVE` ที่อ่านได้:
 - หากใช้ Offline Snapshot ให้จด Error/อาการที่พบ และยืนยันว่าไม่ได้เรียกข้อมูลจาก MCP:
 
 ---
 
 ## 3.4 · ภารกิจจริง: Skill + Figma MCP ตามสายงาน
 
+- โปรเจกต์ที่เลือก: [ ] หมูกระทะ · Booking Restaurant / [ ] ชานมหวานร้อย · E-commerce
 - หน้าจอ Figma ที่เลือกทำ (`node-id`):
 - โหมดที่ทำ: [ ] Online (Skill + MCP) / [ ] Offline (Skill + Snapshot)
 - Online: เห็น Copilot เรียกทั้ง `Read skill ...` และ `get_figma_data` ในงานเดียวกันหรือไม่: [ ] เห็นครบ / [ ] เห็นแค่บางตัว
@@ -67,7 +68,7 @@
 
 - ทำไมการส่งลิงก์ `node-id=0-1` ทั้งแคนวาสถึงอันตรายต่อ Context Window มากกว่าการส่ง `node-id` เฉพาะ Frame:
 - Tool ที่ทดลองติ๊กปิดใน Customizations › Tools / Configure Tools คือตัวไหน และทำไมบทบาทของคุณถึงปิดตัวนั้นได้:
-- [ ] ตรวจสอบแล้วว่า `.mcp.json` ที่มี API Key อยู่ใน `.gitignore` ไม่หลุดเข้า Git
+- [ ] ตรวจ diff ของไฟล์ที่จะ commit แล้ว ไม่มี API Key จริงใน `.vscode/mcp.json`, `.mcp.json` หรือไฟล์อื่น
 
 ---
 

@@ -1,0 +1,46 @@
+name: POC FIGMA MCP
+file_key: pkCT6YDfcnEVOOTS2HIDOg
+node_id: "518:8937"
+source_url: https://www.figma.com/design/pkCT6YDfcnEVOOTS2HIDOg/POC-FIGMA-MCP?node-id=518-8937
+accessed: "2026-11-12"
+snapshot_kind: curated-partial-summary
+project: E-commerce App
+frame: {name: Single Product, width: 1440, height: 3107}
+product:
+  title: {node_id: "518:8982", text: Asgaard sofa}
+  price: {node_id: "518:8983", text: "Rs. 250,000.00"}
+  reviews: {node_id: "518:8996", text: 5 Customer Review}
+  sku: {node_id: "518:9028", text: SS001}
+  category: {node_id: "518:9029", text: Sofas}
+controls:
+  size_label: {node_id: "518:8999", text: Size}
+  size_options:
+    - {node_id: "518:9002", text: L}
+    - {node_id: "518:9005", text: XL}
+    - {node_id: "518:9008", text: XS}
+  color_label: {node_id: "518:9009", text: Color}
+  color_option_count: 3
+  quantity:
+    minus_node_id: "518:9015"
+    plus_node_id: "518:9016"
+    value_node_id: "518:9017"
+    displayed_value: "1"
+  add_to_cart: {node_id: "518:9020", text: Add To Cart}
+  compare: {node_id: "518:9025", text: Compare}
+tabs:
+  - {node_id: "518:9049", text: Description}
+  - {node_id: "518:9050", text: Additional Information}
+  - {node_id: "518:9051", text: "Reviews [5]"}
+copy_observations:
+  - node_id: "518:8997"
+    excerpt: Setting the bar as one of the loudest speakers in its class, the Kilburn
+  - node_id: "518:9053"
+    excerpt: the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall
+not_verified:
+  - Required selections, stock availability and quantity minimum/maximum.
+  - Add To Cart, Compare and tab interaction behavior.
+  - Complete typography, colors, spacing and asset export metadata.
+limitations:
+  - Partial transcription, not a complete Figma API dump or an interactive prototype.
+  - No images, Shop frame or backend/payment implementation is included.
+  - Copy excerpts are abbreviated; do not treat them as complete descriptions.

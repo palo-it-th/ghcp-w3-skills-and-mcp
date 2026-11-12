@@ -12,7 +12,15 @@
       "command": "npx",
       "args": [
         "-y",
-        "figma-developer-mcp",
+        "figma-developer-mcp@0.13.2",
+        "--figma-api-key=${input:figma-key}",
+        "--stdio"
+      ]
+    },
+    "figma-local": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/vendor/figma-context-mcp/dist/bin.js",
         "--figma-api-key=${input:figma-key}",
         "--stdio"
       ]
